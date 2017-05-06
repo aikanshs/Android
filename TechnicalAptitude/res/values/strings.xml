@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuiZZErrr</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_welcome">QuiZZErrr</string>
+    <string name="title_activity_aptitude">Aptitude</string>
+    <string name="title_activity_programming">Programming</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_answer">Answer</string>
+
+</resources>

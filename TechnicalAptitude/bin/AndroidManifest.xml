@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aikansh.quizzerrr"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.aikansh.quizzerrr.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aikansh.quizzerrr.Welcome"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name="com.aikansh.quizzerrr.Aptitude"
+            android:label="@string/title_activity_aptitude" >
+        </activity>
+        <activity
+            android:name="com.aikansh.quizzerrr.Programming"
+            android:label="@string/title_activity_programming" >
+        </activity>
+        <activity
+            android:name="com.aikansh.quizzerrr.Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.aikansh.quizzerrr.Result"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name="com.aikansh.quizzerrr.Answer"
+            android:label="@string/title_activity_answer" >
+        </activity>
+    </application>
+
+</manifest>

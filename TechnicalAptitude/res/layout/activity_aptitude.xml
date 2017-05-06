@@ -1,0 +1,87 @@
+<ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+         android:background="#e5e5ff"
+   
+       xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Aptitude" >
+
+  
+   
+     <Button
+        android:id="@+id/Apti_button1"
+        android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="testactv"
+        android:textStyle="bold|italic"
+        android:textColor="#A52A2A"
+         android:background="#EEE8AA"
+       
+        android:text="Percentage" />
+     <Button
+        android:id="@+id/Apti_button2"
+        android:layout_below="@id/Apti_button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="testactv"
+        android:textStyle="bold|italic"
+        android:textColor="#A52A2A"
+        android:background="#EEE8AA"
+       
+        android:text="Numbers" />
+     
+     <Button
+        android:id="@+id/Apti_button4"
+        android:layout_below="@id/Apti_button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="testactv"
+        android:textStyle="bold|italic"
+        android:textColor="#A52A2A"
+         android:background="#EEE8AA"
+       
+        android:text="Ratio Proportion" />
+     <Button
+        android:id="@+id/Apti_button5"
+        android:layout_below="@id/Apti_button4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="testactv"
+        android:textStyle="bold|italic"
+        android:textColor="#A52A2A"
+         android:background="#EEE8AA"
+       
+        android:text="Time Speed Work" />
+     <Button
+        android:id="@+id/Apti_button6"
+        android:layout_below="@id/Apti_button5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="testactv"
+        android:textStyle="bold|italic"
+        android:textColor="#A52A2A"
+         android:background="#EEE8AA"
+       
+        android:text="Verbal Reasoning" />
+</RelativeLayout>
+</ScrollView>
